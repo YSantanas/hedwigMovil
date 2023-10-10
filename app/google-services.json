@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "69381492757",
+    "project_id": "harry-8013a",
+    "storage_bucket": "harry-8013a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69381492757:android:9e7e1320caff769c933e1c",
+        "android_client_info": {
+          "package_name": "com.myss.hedwig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69381492757-7ovu7oqlns2mqg9vq6spar36ectok0ri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myss.hedwig",
+            "certificate_hash": "0ae35ed0bd2daf8e969a4569ed4eb7604eb90be4"
+          }
+        },
+        {
+          "client_id": "69381492757-je5geiv1fp34s1k8sd60i3bol6ud7jco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn6NxGH13VONo9sxtEfyhub48rQcPlJXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69381492757-je5geiv1fp34s1k8sd60i3bol6ud7jco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

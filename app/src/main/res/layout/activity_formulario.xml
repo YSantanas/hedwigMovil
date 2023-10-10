@@ -1,0 +1,301 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/plantilla_formulario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/color_formulario"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="363dp"
+        android:layout_height="642dp"
+        android:layout_margin="3dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        card_view:cardCornerRadius="10dp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="632dp"
+            android:layout_marginBottom="65dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="148dp"
+                android:layout_height="210dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="200dp"
+                android:layout_marginBottom="403dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                card_view:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/recibeimagenE"
+                    android:layout_width="150dp"
+                    android:layout_height="217dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dobby" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="556dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="63dp">
+
+                <TextView
+                    android:id="@+id/recibeactorE"
+                    android:layout_width="161dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="189dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="13dp"
+                    android:text="@string/txt_actor"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="187dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="38dp"
+                    android:text="@string/txt_nombre"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/recibenombreEs"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView2"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="187dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/txt_nombre"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="187dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginEnd="38dp"
+                    android:text="@string/txt_actor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/recibepatroE"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="187dp"
+                    android:layout_marginTop="144dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/txt_patronus"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="272dp"
+                    android:layout_marginEnd="211dp"
+                    android:text="@string/txt_status"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/recibealiveE"
+                    android:layout_width="156dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView5"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="194dp"
+                    android:text="@string/txt_status"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/recibealiveE"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="186dp"
+                    android:layout_marginTop="-156dp"
+                    android:layout_marginEnd="33dp"
+                    android:text="@string/txt_ascendencia"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/recibeAsc"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView8"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="187dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="9dp"
+                    android:text="@string/txt_ascendencia"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="187dp"
+                    android:layout_marginTop="118dp"
+                    android:layout_marginEnd="37dp"
+                    android:text="@string/txt_patronus"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="223dp"
+                    android:layout_marginEnd="190dp"
+                    android:text="@string/txt_anio"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/recibeAnio"
+                    android:layout_width="159dp"
+                    android:layout_height="27dp"
+                    android:layout_below="@+id/textView10"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="-4dp"
+                    android:layout_marginEnd="191dp"
+                    android:layout_marginBottom="291dp"
+                    android:text="@string/txt_anio"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/recibecasaE"
+                    android:layout_width="127dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="131dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="104dp"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/txt_casa"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/recibeimagenCasa"
+                    android:layout_width="147dp"
+                    android:layout_height="156dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="103dp"
+                    android:layout_marginTop="367dp"
+                    android:layout_marginEnd="107dp"
+                    android:layout_marginBottom="31dp"
+                    card_view:srcCompat="@drawable/defectoescudos" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="158dp"
+                    android:layout_height="136dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="178dp"
+                    android:layout_marginTop="227dp"
+                    android:layout_marginEnd="27dp"
+
+                    android:layout_marginBottom="201dp"
+                    card_view:layout_constraintBottom_toBottomOf="parent"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:srcCompat="@drawable/lechuza" />
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/btn_stras"
+                android:layout_width="58dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="331dp"
+                android:layout_marginEnd="23dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/atras2" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">hedwig</string>
+    <string name="title_home">Inicio</string>
+
+    <!-- cadenas para el registro -->
+    <string name="txt_hechizo">Hechizos</string>
+
+    <string name="txt_descrip">Descripción</string>
+    <string name="txt_nombreH">Nombre de Hechizo</string>
+    <string name="txt_correo">Correo</string>
+    <string name="txt_pass">Contraseña</string>
+    <string name="txt_env">Enviar</string>
+    <string name="txt_regis">Registro</string>
+    <string name="txt_ini">Iniciar</string>
+    <string name="txt_error">Error</string>
+    <string name="txt_merror">se ha producido un error de autentcacion del usuario</string>
+    <string name="txt_aceptar">Aceptar</string>
+    <string name="txt_id">Identifícate</string>
+
+    <!-- cadenas para  Mensaje de EXITO -->
+    <string name="txt_exito">El registro ha sido EXITOSO</string>
+    <string name="txt_exito_message">Bienvenido</string>
+    <string name="txt_aceptare">Aceptar</string>
+
+    <!-- cadenas para  Mensaje de INICIO  de sesion -->
+    <string name="txt_exitoi">El inicio de sesión ha sido EXITOSO</string>
+    <string name="txt_exito_messagei">Bienvenido</string>
+    <string name="txt_aceptari">Aceptar</string>
+
+    <!-- cadenas para el menu -->
+    <string name="title_dashboard">Suerte</string>
+    <string name="title_notifications">Hechizos</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="txt_btn1">Estudiantes</string>
+    <string name="txt_btn2">Profesores</string>
+    <string name="title_activity_profesores">ProfesoresActivity</string>
+    <string name="title_activity_profesor">ProfesorActivity</string>
+    <string name="txt_nombre">Personaje</string>
+    <string name="txt_actor">Actor</string>
+    <string name="txt_casa">Casa</string>
+    <string name="txt_patronus">Patronus</string>
+    <string name="txt_especie">Especie</string>
+    <string name="txt_status">Estatus</string>
+    <string name="txt_genero">Género</string>
+    <string name="txt_fecha">Fecha de nacimiento</string>
+    <string name="txt_ascendencia">Ascendencia</string>
+    <string name="txt_des">Desconocido</string>
+    <string name="txt_anio">Año Nacimiento</string>
+    <string name="mensaje1">Descubre tu casa</string>
+    <string name="txt_btn3">Perfil</string>
+
+    <string name="txt_campos_vacios">Debe llenar el campo</string>
+    <string name="txt_email_invalido">Correo no valido</string>
+    <string name="txt_pass_invalida">Contraseña no valida</string>
+    <string name="txt_error_registro">Error de registro</string>
+    <string name="txt_error_login">Error de Login</string>
+
+
+
+
+    <string name="title_activity_formulario">formulario</string>
+    <string name="title_activity_entrada">EntradaActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
